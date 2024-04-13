@@ -1,0 +1,116 @@
+@media (max-width: 1024px) {
+    .cabecalho {
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px 0px;
+        gap: 15px;
+    }
+
+    .cabecalho .menu li a {
+        padding: 15px;
+    }
+
+    .home .geral {
+        padding: 30px;
+    }
+
+    .home .geral .titulo {
+        font-size: 40px;
+    }
+
+    .formacao-1 .cartao-formacao {
+        width: 70%
+    }
+
+    .soft-1 .cartao-soft {
+        width: 70%;
+    }
+
+    .hard-1 .cartao-hard {
+        width: 70%;
+    }
+
+    li {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .formacao-1 {
+        padding: 30px;
+    }
+
+    .soft-1 {
+        padding: 30px;
+    }
+
+    .hard-1 {
+        padding: 30px;
+    } 
+
+    .formacao-1 .cartao-formacao {
+        padding: 80px 20px;
+        width: 100%;
+    }
+
+    .soft-1 .cartao-soft {
+        padding: 80px 20px;
+        width: 100%;
+    }
+
+    .hard-1 .cartao-hard {
+        padding: 80px 20px;
+        width: 100%;
+    }
+
+    .botao-formacao {
+        margin-top: 15px;
+        padding: 15px;
+    }
+
+    .botao-soft {
+        margin-top: 15px;
+        padding: 15px
+    }
+
+    .botao-hard {
+        margin-top: 15px;
+        padding: 15px;
+    }
+
+    .btn-formacao .btn-soft .btn-hard {
+        width: 100%;
+    }
+}
+
+
+
+@media (max-width: 425px) {
+    main::after {
+        background-color: linear-gradient(90deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .4) 100%, transparent 110%);
+    }
+
+    .formacao-1 .cartao-formacao .capa-formacao {
+        max-width: 80%;
+    } 
+
+    .soft-1 .cartao-soft .capa-soft {
+        max-width: 80%;
+    } 
+
+    .hard-1 .cartao-hard .capa-hard {
+        max-width: 80%;
+    } 
+
+    .cabecalho .menu li a{
+        font-size: 8px;
+    }
+
+    .btn-formacao, .btn-soft, .btn-hard {
+        font-family: 'Arial Black';
+        font-size: 10px;
+        text-align: center;
+        padding: 10px 20px;
+        width: 25%;
+    }
+}
